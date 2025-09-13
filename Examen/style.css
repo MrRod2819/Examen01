@@ -1,0 +1,103 @@
+span{
+    background-color: red;
+    padding: 10px; 
+}
+#icono{
+    display: flex;
+    height: 30px;
+    width: auto;
+    padding: 10px;
+}
+
+
+
+header {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 50px;
+}
+body{
+    margin: 0;
+    border: 0;
+    
+} 
+img{
+    border-radius: 5%;
+    padding: 0 ;
+    margin: 0;
+}
+#Principal{
+    background: linear-gradient(to bottom, red, white);;
+    margin: 0;
+    text-align: center;
+
+}
+#botonCentral {
+    color: white;
+    background-color: red;
+    border: 0;
+    border-radius: 5%;
+    height: 40px;
+    width: 150px;
+
+}
+#main {
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px   
+}
+
+#uno {
+    grid-column: 1; 
+    grid-row: 1;
+    
+}
+#dos{
+    grid-column: 2; 
+    grid-row: 1;
+}
+#tres{
+    grid-column: 3; 
+    grid-row: 1;
+}
+
+#BotonAzul{
+    background-color: blue;
+    color: white;
+    
+    border: 0;
+    border-radius: 5%;
+    height: 40px;
+    width: 150px;
+    
+}
+section{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5%;
+    padding: 15px;
+
+}
+
+
+
+#Contenedor { 
+    text-align: center; 
+}
+#imagenPrincipal{
+    padding: 10px;
+    display: inline-block;
+    height: 570px; 
+
+}
+#imagenDestacada{
+    height: auto;
+    width: 500px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 5%;
+}
